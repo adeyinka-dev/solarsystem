@@ -23,11 +23,11 @@ class Planet:
 
     def get_info(self):
         return (
-            f"Planet {self.name}\n"
-            f"Mass: {self.mass}\n Earths"
-            f"Distance From the sun: {self.distance}\n"
+            f"{self.name}\n"
+            f"Mass: {self.mass} Earth masses\n"
+            f"Distance From the sun: {self.distance} million kilometers\n"
             f"Moons: {self.moons}\n"
-            f"Summary: {self.summary}\n"
+            f"{self.summary}\n"
         )
 
 
